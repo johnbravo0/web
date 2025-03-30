@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+}
+h1{
+    font-size: 26px;
+    line-height: 32px;
+    color: rgb(0, 0, 0);
+    font-family: storm;
+    font-weight: 600px;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 26px;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+    font-family: storm;
+    font-weight: 600px;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 26px;
+    line-height: 32px;
+    color: white;
+    font-family: storm;
+    font-weight: 600px;
+    text-transform: uppercase;
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+a{
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(0, 0, 0);
+    font-family: storm;
+    cursor: pointer;
+}
+.main-header{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.main-header-logo{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    padding-left: 20px;
+}
+.main-header-nav{
+    width:fit-content;
+    height: 100%;
+    padding-left: 20px;
+}
+.main-header-nav ul{
+    list-style: none;
+    margin-left: 30px;
+}
+.main-header-nav ul li{
+   display: inline;
+   float: left;
+}
+.main-header-nav ul li a{
+    padding: 0 10px;
+    line-height: 60px;
+}
+.main-header-nav ul li a:hover{
+    color: orangered;
+}
+.main-header-sm{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+    column-gap: 20px;
+}
+.main-header-love{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/love-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-header-basket{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/basket-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
